@@ -57,7 +57,7 @@ Storage:
     AccessMode:  ReadWriteOnce
     Size:  5Gi
     StorageType:  dynamic
-    StorageClass:  fast
+    StorageClass:  local-path
   primarysite:
     AccessMode:  ReadWriteOnce
     Size:  4G
